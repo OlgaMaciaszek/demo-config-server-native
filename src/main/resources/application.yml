@@ -1,0 +1,19 @@
+logging:
+  level:
+    org.springframework: DEBUG
+server:
+  port: 8889
+spring:
+  security:
+    user:
+      name: root
+      password: password
+  cloud:
+    config:
+      server:
+        git:
+          cloneOnStart: false
+          uri: https://github.com/spring-cloud-samples/spring-cloud-intro-demo-config
+
+encrypt:
+  key: asdfajazdfjalasdfasdf
