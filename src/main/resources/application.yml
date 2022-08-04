@@ -1,6 +1,6 @@
 logging:
   level:
-    org.springframework: DEBUG
+    org.springframework: TRACE
 server:
   port: 8889
 spring:
