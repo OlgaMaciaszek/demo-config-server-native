@@ -9,11 +9,13 @@ spring:
       name: root
       password: password
   cloud:
+    refresh:
+      enabled: false
     config:
       server:
         git:
           cloneOnStart: false
           uri: https://github.com/spring-cloud-samples/spring-cloud-intro-demo-config
 
-encrypt:
-  key: asdfajazdfjalasdfasdf
+#encrypt:
+#  key: asdfajazdfjalasdfasdf
