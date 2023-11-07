@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.0-SNAPSHOT</version>
+		<version>3.2.0-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
@@ -16,7 +16,7 @@
 	<description>demo-config-server-ref</description>
 	<properties>
 		<java.version>17</java.version>
-		<spring-cloud.version>2022.0.0-SNAPSHOT</spring-cloud.version>
+		<spring-cloud.version>2023.0.0-SNAPSHOT</spring-cloud.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -103,9 +103,9 @@
 						</configuration>
 						<executions>
 							<execution>
-								<id>native-build</id>
+								<id>native</id>
 								<goals>
-									<goal>build</goal>
+									<goal>compile-no-fork</goal>
 								</goals>
 							</execution>
 						</executions>
