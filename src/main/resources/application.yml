@@ -1,6 +1,7 @@
 logging:
   level:
     org.springframework.cloud: TRACE
+    org.apache.sshd: TRACE
 server:
   port: 8889
 spring:
@@ -15,7 +16,7 @@ spring:
       server:
         git:
           cloneOnStart: false
-          uri: https://github.com/spring-cloud-samples/spring-cloud-intro-demo-config
+          uri: git@github.com:OlgaMaciaszek/spring-cloud-intro-demo-config.git
 
-#encrypt:
-#  key: asdfajazdfjalasdfasdf
+encrypt:
+  key: asdfajazdfjalasdfasdf
