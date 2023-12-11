@@ -18,5 +18,3 @@ spring:
           cloneOnStart: true
           uri: git@github.com:OlgaMaciaszek/spring-cloud-intro-demo-config.git
 
-encrypt:
-  key: asdfajazdfjalasdfasdf
