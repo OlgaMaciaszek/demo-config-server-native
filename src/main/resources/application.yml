@@ -5,10 +5,6 @@ logging:
 server:
   port: 8889
 spring:
-  security:
-    user:
-      name: root
-      password: password
   cloud:
     refresh:
       enabled: false
