@@ -12,5 +12,5 @@ spring:
       server:
         git:
           cloneOnStart: true
-          uri: git@github.com:OlgaMaciaszek/spring-cloud-intro-demo-config.git
+          uri: https://github.com/spring-cloud-samples/spring-cloud-intro-demo-config
 
